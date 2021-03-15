@@ -23,26 +23,25 @@
    <section>
 
       <div id="dice">
-         <label for="age"></label>
-         <input type="text" name="age" id="age" placeholder="Digite sua idade">
+         <h2 class="titles">Nascimento</h2>
+         <label for="birthYear"></label>
+         <input type="number" name="birthYear" id="birthYear" placeholder="Qual ano você nasceu: ">
 
-         <p>Genero:</p>
+         <h2 class="titles">Gênero</h2>
+
          <label for="genreMale">Masculino</label>
-         <input type="radio" name="genre" id="genreMale" checked>
-
-         <label for="genreFeminine">Feminino</label>
-         <input type="radio" name="genre" id="genreFeminine">
-
-         <label for="genreOther">Outro</label>
-         <input type="radio" name="genre" id="genreOther">
+         <input type="radio" name="genre" id="genreMale" class="genres">
          <br>
-         <input type="button" id="check" value="Verificar">
-
+         <label for="genreFeminine">Feminino</label>
+         <input type="radio" name="genre" id="genreFeminine" class="genres">
+         <br>
+         <input type="button" id="check" value="Verificar" onclick="check()">
       </div>
 
 
-      <div>
-         <img src="#" alt="">
+      <div id="result">
+         <p id="textResult">Preencha os dados para a verificação</p>
+         <img id="imgResult" src="" alt="Imagem de resultado">
       </div>
 
    </section>
@@ -50,7 +49,7 @@
    <footer>
       <p>&copy; by Mizael A. Silva</p>
    </footer>
-   <script src=""></script>
+   <script src="index.js"></script>
 </body>
 
 </html>
