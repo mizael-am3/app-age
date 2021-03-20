@@ -1,6 +1,6 @@
 ## 🛠 Software em construção...⚙
 
-App simples, hora.
+App simples, de idades, treinando JS...
 
 
 
@@ -8,4 +8,4 @@ App simples, hora.
 
 Clique no link abaixo para acessar a aplicação web.
 
-- https://app-hour.vercel.app/
+- https://app-age.vercel.app/
