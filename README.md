@@ -1,6 +1,6 @@
 ## 🛠 Software em construção...⚙
 
-App somples, hora.
+App simples, hora.
 
 
 
